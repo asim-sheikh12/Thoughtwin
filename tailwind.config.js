@@ -55,6 +55,7 @@ module.exports = {
         about_us_banner: "url('../assets/images/aboutus_banner.png')",
         contactus_banner: "url('../assets/images/contactus_banner.png')",
         ourteam: "url('../assets/images/ourteam.jpeg')",
+        email: "url('../assets/images/email.png')",
       },
     },
   },

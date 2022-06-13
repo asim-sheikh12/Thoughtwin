@@ -1,5 +1,7 @@
+import { useRouter } from 'next/router';
 import React from 'react';
 const Banner = () => {
+  const router = useRouter();
   return (
     <div>
       <video
@@ -17,7 +19,10 @@ const Banner = () => {
           Innovative and intelligent technology solutions and services
         </span>
         <div>
-          <button className='p-6 bg-white text-red rounded-full h-16 w-72	font-Formular font-bold text-base leading-[0.6rem] hover:bg-black transition duration-500  hover:text-white hover:ease-out'>
+          <button
+            onClick={() => router.push('/contact')}
+            className='p-6 bg-white text-red rounded-full h-16 w-72	font-Formular font-bold text-base leading-[0.6rem] hover:bg-black transition duration-500  hover:text-white hover:ease-out'
+          >
             Schedule A Call
           </button>
         </div>

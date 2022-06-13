@@ -1,8 +1,10 @@
 import Image from 'next/image';
+import { useRouter } from 'next/router';
 import React from 'react';
 import { icons } from '../../constants';
 import Link from 'next/link';
 const Navbar = () => {
+  const router = useRouter();
   return (
     <div className='items-center bg-white top-0 mt-0  border-solid border-b box-border block h-auto sticky z-50'>
       <ul className='flex justify-around	items-center px-20'>
@@ -36,7 +38,10 @@ const Navbar = () => {
           Services
         </li>
         <li className='ml-8'>
-          <button className='border- transition duration-500 bg-[center_right_2rem] bg-no-repeat rounded-full border-solid border box-border font-bold text-base leading-6 overflow-visible px-16 py-2.5 bg-red text-white not-italic normal-case hover:bg-white hover:border-black hover:text-red bg-white_arrowIcon hover:bg-red_arrowIcon'>
+          <button
+            onClick={() => router.push('/contact')}
+            className='border- transition duration-500 bg-[center_right_2rem] bg-no-repeat rounded-full border-solid border box-border font-bold text-base leading-6 overflow-visible px-16 py-2.5 bg-red text-white not-italic normal-case hover:bg-white hover:border-black hover:text-red bg-white_arrowIcon hover:bg-red_arrowIcon'
+          >
             Contact Us
           </button>
         </li>

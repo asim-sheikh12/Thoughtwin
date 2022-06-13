@@ -17,22 +17,22 @@ const Navbar = () => {
             />
           </Link>
         </li>
-        <li className='text-gray-600 transition duration-500 hover:ease-out	font-medium	text-xl ml-8 hover:text-red hover:underline underline-offset-8'>
+        <li className='font-Formular text-gray-600 transition duration-500 hover:ease-out	font-medium	text-xl ml-8 hover:text-red hover:underline underline-offset-8'>
           <Link href='/about'>About Us</Link>
         </li>
-        <li className='text-gray-600 transition duration-500 hover:ease-out	font-medium	text-xl ml-8 hover:text-red hover:underline underline-offset-8'>
+        <li className='font-Formular text-gray-600 transition duration-500 hover:ease-out	font-medium	text-xl ml-8 hover:text-red hover:underline underline-offset-8'>
           <Link href='/portfolio'>Portfolio</Link>
         </li>
-        <li className='text-gray-600 transition duration-500 hover:ease-out	font-medium	text-xl ml-8 hover:text-red hover:underline underline-offset-8'>
+        <li className='font-Formular text-gray-600 transition duration-500 hover:ease-out	font-medium	text-xl ml-8 hover:text-red hover:underline underline-offset-8'>
           <Link href='/blogs'>Blog</Link>
         </li>
-        <li className='text-gray-600 transition duration-500 hover:ease-out	font-medium	text-xl ml-8 hover:text-red hover:underline underline-offset-8'>
+        <li className='font-Formular text-gray-600 transition duration-500 hover:ease-out	font-medium	text-xl ml-8 hover:text-red hover:underline underline-offset-8'>
           <Link href='/ourteam'>Our Team</Link>
         </li>
-        <li className='text-gray-600 transition duration-500 hover:ease-out	font-medium	text-xl ml-8 hover:text-red hover:underline underline-offset-8'>
+        <li className='font-Formular text-gray-600 transition duration-500 hover:ease-out	font-medium	text-xl ml-8 hover:text-red hover:underline underline-offset-8'>
           <Link href='/careers'>Careers</Link>
         </li>
-        <li className='text-gray-600 transition duration-500 hover:ease-out	font-medium	text-xl ml-9 hover:text-red hover:underline underline-offset-8'>
+        <li className='font-Formular text-gray-600 transition duration-500 hover:ease-out	font-medium	text-xl ml-9 hover:text-red hover:underline underline-offset-8'>
           Services
         </li>
         <li className='ml-8'>

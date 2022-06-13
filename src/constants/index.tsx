@@ -30,6 +30,12 @@ import about_icon2 from '../assets/images/about_icon2.png';
 import about_icon3 from '../assets/images/about_icon3.png';
 import about_icon4 from '../assets/images/about_icon4.png';
 import about_icon5 from '../assets/images/about_icon5.png';
+import about_left from '../assets/images/about_left.png';
+import about_right from '../assets/images/about_right.png';
+import arrow from '../assets/images/arrow.png';
+import hr1 from '../assets/images/hr1.png';
+import hr2 from '../assets/images/hr2.png';
+import career from '../assets/images/career.jpg';
 export const icons = {
   logoIcon,
   about_icon1,
@@ -37,6 +43,12 @@ export const icons = {
   about_icon3,
   about_icon4,
   about_icon5,
+  arrow,
+  hr1,
+  hr2,
+  career,
+  about_left,
+  about_right,
   team1,
   team2,
   team3,

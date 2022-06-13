@@ -7,7 +7,7 @@ module.exports = {
     extend: {
       fontFamily: {
         Rajdhani: ['Rajdhani'],
-        Formular: ['PT Sans'],
+        Formular: ['Formular'],
       },
       colors: {
         red: '#FF0000',
@@ -53,6 +53,8 @@ module.exports = {
         white_arrowIcon: "url('../assets/images/white_arrow.png')",
         red_arrowIcon: "url('../assets/images/red_arrow.png')",
         about_us_banner: "url('../assets/images/aboutus_banner.png')",
+        contactus_banner: "url('../assets/images/contactus_banner.png')",
+        ourteam: "url('../assets/images/ourteam.jpeg')",
       },
     },
   },

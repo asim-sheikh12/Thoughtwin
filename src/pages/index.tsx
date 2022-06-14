@@ -1,8 +1,6 @@
 import Head from 'next/head';
-import Banner from '../components/banner';
-import { Clients } from '../components/clients';
-import { Solutions } from '../components/solutions';
-import { Technologies } from '../components/technologies';
+import { Banner, Clients, Solutions, Technologies } from '../components';
+
 export default function Home() {
   return (
     <div>

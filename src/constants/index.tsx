@@ -36,8 +36,18 @@ import arrow from '../assets/images/arrow.png';
 import hr1 from '../assets/images/hr1.png';
 import hr2 from '../assets/images/hr2.png';
 import career from '../assets/images/career.jpg';
+import taj from '../assets/images/taj.svg';
+import canada from '../assets/images/canada.svg';
+import location from '../assets/images/location.svg';
+import mail from '../assets/images/mail.png';
+import phoneIcon from '../assets/images/phoneIcon.svg';
 export const icons = {
   logoIcon,
+  location,
+  mail,
+  phoneIcon,
+  taj,
+  canada,
   about_icon1,
   about_icon2,
   about_icon3,

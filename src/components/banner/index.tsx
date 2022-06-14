@@ -1,6 +1,6 @@
 import { useRouter } from 'next/router';
 import React from 'react';
-const Banner = () => {
+export const Banner = () => {
   const router = useRouter();
   return (
     <div>
@@ -30,5 +30,3 @@ const Banner = () => {
     </div>
   );
 };
-
-export default Banner;
